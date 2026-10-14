@@ -1,0 +1,10 @@
+/data/
+/_validation/
+/dist/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+.venv/
+.env
+tests/tmp*/

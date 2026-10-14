@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zhongguancun-weather"
+version = "0.1.0"
+description = "Reproducible historical regional weather and interval-aware bike-data features"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[project.scripts]
+zgc-weather = "zgc_weather.cli:main"
+
+[tool.setuptools]
+packages = ["zgc_weather"]
+
+[tool.setuptools.package-data]
+zgc_weather = ["study_region.json"]

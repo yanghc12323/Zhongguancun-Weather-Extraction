@@ -1,0 +1,13 @@
+{
+  "name": "Zhongguancun official course-project region",
+  "coordinate_system": "GCJ-02",
+  "latitude": 39.9759376731302,
+  "longitude": 116.3213781163435,
+  "representative_point_method": "arithmetic mean of 722 official rounded GCJ-02 region points",
+  "point_count": 722,
+  "source_file": "official_region_points.csv",
+  "source_sha256": "6dd245c976f35f6cb2281fbd23ba3ff7eab1928284239a863cd320ff0bd90683",
+  "coordinate_assumption": "GCJ-02 convention confirmed for the frozen course project; not an official teacher CRS declaration",
+  "default_start": "2026-03-02",
+  "default_end": "2026-05-24"
+}
