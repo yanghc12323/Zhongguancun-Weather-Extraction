@@ -6,6 +6,14 @@
 
 ## 快速运行
 
+从 GitHub 获取代码：
+
+```powershell
+git clone https://github.com/yanghc12323/Zhongguancun-Weather-Extraction.git
+cd Zhongguancun-Weather-Extraction
+python -m zgc_weather
+```
+
 在本文件所在文件夹打开终端：
 
 ```powershell
@@ -117,7 +125,7 @@ python -m unittest discover -s tests -v
 
 当前天气表用于事后描述和探索。事后历史天气、再分析及半小时行中覆盖至未来整点的小时降水，可能在真实预测时尚不可得。评价提前预测时，需要另行接入按发布时间筛选的预报或当时可得的观测。
 
-上传代码时保留包目录、测试、README、`docs/`、`NOTICE`、`pyproject.toml`、`.gitignore` 和 `.github/`。`data/`、`_validation/`、`dist/` 已忽略，本地规划日志也不必放入交付代码包。工具没有依赖课程原始骑行文件、开发者绝对路径或账户信息。尚未创建或发布远程 GitHub 仓库。
+仓库地址：[Zhongguancun-Weather-Extraction](https://github.com/yanghc12323/Zhongguancun-Weather-Extraction)。仓库包含包目录、测试、README、`docs/`、`NOTICE`、`pyproject.toml`、`.gitignore` 和 `.github/`。`data/`、`_validation/`、`dist/` 已忽略，本地规划日志也不必放入交付代码包。工具没有依赖课程原始骑行文件、开发者绝对路径或账户信息；其他人可以按快速运行命令自行获取天气数据。
 
 天气数据署名建议：**Weather data: Open-Meteo and ECMWF (IFS/ERA5), CC BY 4.0; processed and time-aligned for this course project.** 原创代码的公开许可可由小组发布时确定；复用算法的许可通知已保存在 NOTICE，随代码保留。
 
